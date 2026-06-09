@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "a backend",
   "type": "module",
-  "main": "index.js",
+  "main": "index.jsss",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
   "author": "Abhishek Goyal",
   "license": "ISC",
   "devDependencies": {
-    "nodemo": "^1.0.0",
+    "nodemon": "^1.19.4",
     "prettier": "^3.8.4"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.6.3"
   }
 }
